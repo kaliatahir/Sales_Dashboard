@@ -49,7 +49,7 @@ async function loadCSV() {
         }
 
 
-        const response = await fetch("Sales_dashboard_arzan\data");
+        const response = await fetch("data");
 
         if (!response.ok) {
             throw new Error("Unable to load sales_data.csv");
