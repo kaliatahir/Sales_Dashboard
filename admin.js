@@ -246,7 +246,7 @@ async function loadData() {
 
             const response =
                 await fetch(
-                    "data/sales_data.csv"
+                    "sales_data.csv"
                 );
 
 
