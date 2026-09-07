@@ -49,7 +49,7 @@ async function loadCSV() {
         }
 
 
-        const response = await fetch("data");
+        const response = await fetch("sales_data.csv");
 
         if (!response.ok) {
             throw new Error("Unable to load sales_data.csv");
